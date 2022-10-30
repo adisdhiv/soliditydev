@@ -46,9 +46,11 @@ function updateEmployee(string memory name, string memory email) public returns(
 }
 
 function deleteEmployee(string memory email) public returns(bool){
+    require(totalEmployees > 0);
     for(uint i = 0; i < totalEmployees ; i++){
         if(compareStrings(employees[i].email, email)){
-            delete employees[i];
+            employees[i] = employees[totalEmployees - 1];
+            delete employees[totalEmployees - 1];
             totalEmployees--;
             return (true);
         }

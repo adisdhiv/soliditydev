@@ -49,7 +49,7 @@ async function main() {
 
   await crud.deleteEmployee("a@gmail.com")
 
-  console.log("Employee after deletion", await crud.employees(1)); //0 is deleted
+  console.log("Employee after deletion", await crud.employees(0));
 
   console.log("Total Employees after deletion", await crud.totalEmployees());
 
