@@ -10,3 +10,7 @@ This code explains
 ### crud
 - Basic Create, Read, Update, Delete in solidity
 - Add .env file for environment variables
+
+### simple_transfer:
+- A smart contract that takes input from the calling address and sends to a different address
+
