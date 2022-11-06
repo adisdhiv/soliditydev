@@ -14,3 +14,7 @@ This code explains
 ### simple_transfer:
 - A smart contract that takes input from the calling address and sends to a different address
 
+### multisig:
+- A multi signature wallet code
+- Simple testcases written
+
