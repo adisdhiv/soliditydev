@@ -18,3 +18,5 @@ This code explains
 - A multi signature wallet code
 - Simple testcases written
 
+### nft_explorer:
+- Displays NFTs owned by a wallet address : https://github.com/adisdhiv/nft_explorer
