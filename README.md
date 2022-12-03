@@ -18,5 +18,8 @@ This code explains
 - A multi signature wallet code
 - Simple testcases written
 
+### escrow:
+- A simple escrow contract to transfer funds
+
 ### nft_explorer:
 - Displays NFTs owned by a wallet address : https://github.com/adisdhiv/nft_explorer
