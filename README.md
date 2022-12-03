@@ -23,6 +23,7 @@ This code explains
 
 ### erc20:
 - Deployed own token "DhivyaToken" to goerli. Token address 0xa6a9585b1891007F2a45697f252A11249edE99b8
+- Deployed own token Openzeppelin version "DhivyaTokenOz" to goerli. Token address 0xB789699caBE164b7579780322BC77D7D41Ba3C59
 
 ### nft_explorer:
 - Displays NFTs owned by a wallet address : https://github.com/adisdhiv/nft_explorer
